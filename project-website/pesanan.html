@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Hugo 0.83.1" />
+    <title>Pesanan | Gandini Store</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="/assets/libs/fontawesome/css/all.min.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json" />
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#7952b3" />
+
+    <link rel="stylesheet" href="/assets/css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Gandini Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/pesanan.html">Cek Pesanan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>Account</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-1">
+                  <a href="/login.html" class="dropdown-item">Login</a>
+                  <a href="/register.html" class="dropdown-item">Register</a>
+                  <a href="#" class="dropdown-item">Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <br>
+        <br>
+        <div class="row mt-4" style="margin:0px;color:white">
+            <div class="col-12">
+                <h3>Periksa Status Pesanan</h3>
+                <span class="strip-primary"></span>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-12 mt-3">
+                <div class="card mb-3 bg-dark">
+                    <div class="card-body">
+                        <form action="invoice">
+                            <div class>
+                                <div class="mb-3">
+                                    <label class>Kode Pesanan</label>
+                                    <input type="text" class="form-control" name="id"
+                                    placeholder="Masukan Kode Pesanan" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="submit" class="btn btn-primary" name="submit" value="Periksa">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer mt-auto text-white bg-dark pt-3 ">
+        <div class="container pt-md-3 pb-md-3 text-left text-md-left">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-sm-12 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">Gandini Store</h5>
+                    <span class="strip-red"></span>
+                    <div class="footer-info mt-4">
+                        <p>Gandini Store Adalah Tempat Top Up Games Yang Aman, Murah, dan Terpercaya. Untuk
+                        Mempermudah Pembayaran Anda Disini Kami Juga Menyediakan Metode Pembayaran Alfamart, Bank BCA, DANA, OVO, Gopay, Shopee Pay, Link Aja, dll.<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-12 mt-md-0">
+                    <h5 class="text-uppercase">Sosial Media</h5>
+                    <div class="row">
+                            <div class="col-md-6">
+                                <p><b class="badge badge-success"><i class="fas fa-envelope"></i></b> gandinistore@gmail.com</p>
+                                <p><b class="badge badge-success" style="background-color: #bd4cae;"><i class="fab fa-instagram"></i></b>gandini_store</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-copyright text-center py-3" style="background-color: black;">© Copyright 2021 Gandini Store</div>
+    </footer>
+           
+    
+    
+        <script src="/assets/libs/jquery/jquery-3.6.0.min.js"></script>
+        <script src="/assets/libs/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
