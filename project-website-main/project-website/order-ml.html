@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Hugo 0.83.1" />
+    <title>Order ML | Gandini Store</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="/assets/libs/fontawesome/css/all.min.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json" />
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3" />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#7952b3" />
+
+    <link rel="stylesheet" href="/assets/css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Gandini Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pesanan.html">Cek Pesanan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>Account</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-1">
+                <a href="/login.html" class="dropdown-item">Login</a>
+                <a href="/register.html" class="dropdown-item">Register</a>
+                <a href="#" class="dropdown-item">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+      <div class="row text-white mt-4" style="margin: 0px;">
+          <div class="col-md-4">
+              <div class="text-start">
+                  <img src="/assets/images/ml.png" class="img-responsive" alt="">
+              </div>
+              <h5 class="text-start mt-3">Diamond Fast</h5>
+              <p class="text-start">Cukup masukan ID, pilih nominal yang diinginkan, lakukan pembayaran, lalu Diamonds / Starlight Member / Twilight Pass. Tunggu 5-15 menit. Diamonds akan bertambah langsung ke akun Mobile Legends Anda setelah pembayaran berhasil.</p>
+              <br>
+          </div>
+
+          <div class="col-md-8">
+           <form class="contact-form" id="orderform" action="#">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Lengkapi Data</h5>
+                </div>
+                <div class="col-md-12 mb-3 mt-3">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" name="data" placeholder="Masukan User ID" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" name="zoneid" placeholder="Masukan Server ID" oninput="javascrit: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxLength="5" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <h5>Pilih Nominal</h5>
+                </div>
+                <div class="col-md-12 mb-3 mt-3">
+                  <div class="card bg-dark text-white">
+                    <div class="card-body">
+                      <div class>
+                      <div class="panel-topup">
+                        <input type="radio" id="service0" name="service" value="120">
+                        <label for="service0">86 Diamonds</label>
+                        <input type="radio" id="service1" name="service" value="8">
+                        <label for="service1">172 Diamonds</label>
+                        <input type="radio" id="service2" name="service" value="9">
+                        <label for="service2">257 Diamonds</label>
+                        <input type="radio" id="service3" name="service" value="121">
+                        <label for="service3">344 Diamonds</label>
+                        <input type="radio" id="service4" name="service" value="10">
+                        <label for="service4">429 Diamonds</label>
+                        <input type="radio" id="service5" name="service" value="11">
+                        <label for="service5">514 Diamonds</label>
+                        <input type="radio" id="service6" name="service" value="12">
+                        <label for="service6">706 Diamonds</label>
+                        <input type="radio" id="service7" name="service" value="122">
+                        <label for="service7">878 Diamonds</label>
+                        <input type="radio" id="service8" name="service" value="15">
+                        <label for="service8">1412 Diamonds</label>
+                        <input type="radio" id="service9" name="service" value="16">
+                        <label for="service9">2194 Diamonds</label>
+                        <input type="radio" id="service10" name="service" value="18">
+                        <label for="service10">3688 Diamonds</label>
+                        <input type="radio" id="service11" name="service" value="25">
+                        <label for="service11">5532 Diamonds</label>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="note"></div>
+              <div class="col-md-12">
+                <h5>Pilih Metode Pembayaran</h5>
+              </div>
+              <div class="col-md-12 mb-3 mt-3">
+                <div class="card bg-dark">
+                  <div class="card-body">
+                    <div class="class">
+                      <div class="methods">
+                        <input type="radio" class="btn-check" id="method0" name="method" value="TRANSFER BANK BCA ">
+                        <label class="btn btn-secondary" for="method0">
+                          <img src="/assets/images/bca.png" alt="" class="img-fluid">
+                          <p class="float-end">
+                            <span class="badge bg-success" id="TRANSFER BANKB BCA">Rp.18.270</span>
+                          </p>
+                        </label> 
+                        <br>
+                        <br>
+                        <input type="radio" class="btn-check" id="method1" name="method" value="QRIS">
+                        <label class="btn btn-secondary" for="method1">
+                          <img src="/assets/images/qris.png" alt="" class="img-fluid">
+                          <p class="float-end">
+                            <span class="badge bg-success" id="QRIS">Rp.18.819</span>
+                          </p>
+                        </label>
+                        <br>
+                        <br>
+                        <input type="radio" class="btn-check" id="method2" name="method" value="Alfamart">
+                        <label class="btn btn-secondary" for="method2">
+                          <img src="/assets/images/alfamart.png" alt="" class="img-fluid">
+                          <p class="float-end">
+                            <span class="badge bg-success" id="Alfamart">Rp.23.545</span>
+                          </p>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="note"></div>
+              </div>
+            
+            <div class="col-12">
+              <h5 class="text-white">Nomor Whatsapp</h5>
+            </div>
+            <div class="col-12 mb-3 mt-3">
+              <div class="card bg-dark">
+                <div class="card-body">
+                  <div class>
+                    <input type="number" class="form-control" id="nomorhp" name="nomorhp" placeholder="08xxxxxxx" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <input type="button" value="Beli Sekarang" id="orderbtn" class="btn btn-primary">
+              <input type="hidden" name="cid" value="1">
+            </div>
+  </div>
+  </form>
+  </div>
+      </div>
+      </main>
+
+  <footer class="footer mt-5 text-white bg-dark pt-3 ">
+    <div class="container pt-md-3 pb-md-3 text-left text-md-left">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-12 mt-md-0 mt-3">
+                <h5 class="text-uppercase">Gandini Store</h5>
+                <span class="strip-red"></span>
+                <div class="footer-info mt-4">
+                    <p>>Gandini Store Adalah Tempat Top Up Games Yang Aman, Murah, dan Terpercaya. Untuk
+                        Mempermudah Pembayaran Anda Disini Kami Juga Menyediakan Metode Pembayaran Alfamart, Bank BCA, DANA, OVO, Gopay, Shopee Pay, Link Aja, dll.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12 mt-md-0">
+                <h5 class="text-uppercase">Sosial Media</h5>
+                <div class="row">
+                        <div class="col-md-6">
+                            <p><b class="badge badge-success"><i class="fas fa-envelope"></i></b> gandinistore@gmail.com</p>
+                            <p><b class="badge badge-success" style="background-color: #bd4cae;"><i class="fab fa-instagram"></i></b>gandini_store</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="footer-copyright text-center py-3" style="background-color: black;">© Copyright 2021 Gandini Store</div>
+            </footer>
+       
+
+
+    <script src="/assets/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/assets/libs/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
